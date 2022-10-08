@@ -108,7 +108,7 @@ tab1, tab2, tab3 = st.tabs(["Home", "About", "Contact"])
 with tab1:
     with st.spinner('Wait for it...'):
         time.sleep(2)
-    image = Image.open("https://github.com/Anuj-gr8/mywebsite/blob/main/data/my_image1.png")
+    image = Image.open("https://drive.google.com/file/d/1ItVqVE3qV6oEIRO56gPN3KjJlTRdUupG/view?usp=sharing")
     col1, col2 = st.columns([3, 1])
     with col1.container():
         st.markdown(page_bg_img1, unsafe_allow_html=True)
