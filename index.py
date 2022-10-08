@@ -110,6 +110,7 @@ st.markdown("<h1 style='text-align: center; color: red;'><a href='https://git.io
 tab1, tab2, tab3 = st.tabs(["Home", "About", "Contact"])
 with tab1:
     with st.spinner('Wait for it...'):
+        st.snow()
         time.sleep(2)
     # image = Image.open("https://www.bing.com/images/search?q=Google+Upload+Icon&FORM=IRIBIP")
     col1, col2 = st.columns([3, 1])
