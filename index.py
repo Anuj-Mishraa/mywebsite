@@ -104,7 +104,7 @@ Contact = '''
 
 '''
 img = '''
-<a><img src="https://i.ibb.co/7X94fYV/my-image1.png" alt="my image" width="300" height="300"></a>
+<a><img src="https://i.ibb.co/7X94fYV/my-image1.png" alt="my image" width="250" height="250"></a>
 '''
 st.markdown("<h1 style='text-align: center; color: red;'><a href='https://git.io/typing-svg'><img src='https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=37&duration=2500&pause=1000&color=89E94E&background=5730FF00&width=435&lines=Hey,+I+am+Anuj+🙋‍♂️' alt='Typing SVG' /></a></h1>", unsafe_allow_html=True)
 tab1, tab2, tab3 = st.tabs(["Home", "About", "Contact"])
