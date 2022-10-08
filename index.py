@@ -103,12 +103,15 @@ Contact = '''
 [![Call](https://img.shields.io/badge/-Call-E19084?style=flat&labelColor=c13584&logo=Call&logoColor=white&align=center)](tel:+918839219481)
 
 '''
+img = '''
+<a><img src="https://www.bing.com/images/search?q=Google+Upload+Icon&FORM=IRIBIP" alt="my image"></a>
+'''
 st.markdown("<h1 style='text-align: center; color: red;'><a href='https://git.io/typing-svg'><img src='https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=37&duration=2500&pause=1000&color=89E94E&background=5730FF00&width=435&lines=Hey,+I+am+Anuj+🙋‍♂️' alt='Typing SVG' /></a></h1>", unsafe_allow_html=True)
 tab1, tab2, tab3 = st.tabs(["Home", "About", "Contact"])
 with tab1:
     with st.spinner('Wait for it...'):
         time.sleep(2)
-    image = Image.open("https://drive.google.com/file/d/1ItVqVE3qV6oEIRO56gPN3KjJlTRdUupG/view?usp=sharing")
+    # image = Image.open("https://www.bing.com/images/search?q=Google+Upload+Icon&FORM=IRIBIP")
     col1, col2 = st.columns([3, 1])
     with col1.container():
         st.markdown(page_bg_img1, unsafe_allow_html=True)
@@ -117,7 +120,7 @@ with tab1:
     "\nI take great care in the experience, architecture, and code quality of the things I build. I'm 20 years old and graduated with a degree in Integrated M.Tech. with CSE specialization in AI&ML VIT BHOPAL UNIVERSITY.\nI'm also an open-source enthusiast. I learned a lot from the open-source community and I love how collaboration and knowledge sharing happened through open-source.")
 
     with col2.container():
-        st.image(image)
+        st.markdown(img, unsafe_allow_html=True)
 with tab2:
     st.balloons()
     st.write("## About")
