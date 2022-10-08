@@ -135,6 +135,7 @@ with tab2:
     with st.expander("Extra curriculurm:"):
         st.markdown(extra, unsafe_allow_html=True)
 with tab3:
+    st.snow()
     with st.spinner('Wait for it...'):
         time.sleep(2)
     st.success("## Contact me")
