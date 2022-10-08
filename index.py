@@ -99,12 +99,12 @@ extra = '''
 Contact = '''
 <br><br>
 [![WhatsApp](https://img.shields.io/badge/-WhatsApp-D18984?style=flat&labelColor=c13584&logo=WhatsApp&logoColor=white&align=center)](https://wa.link/t06alh)
-[![Eamil](https://img.shields.io/badge/E--mail-G--mail-blue?&logo=G-mail&style=flat&align=center)](anujmishra282003@gmail.com)
+[![Eamil](https://img.shields.io/badge/E--mail-G--mail-blue?&logo=G-mail&style=flat&align=center)](mailto:anujmishra282003@gmail.com)
 [![Call](https://img.shields.io/badge/-Call-E19084?style=flat&labelColor=c13584&logo=Call&logoColor=white&align=center)](tel:+918839219481)
 
 '''
 img = '''
-<a><img src="https://i.ibb.co/7X94fYV/my-image1.png" alt="my image"></a>
+<a><img src="https://i.ibb.co/7X94fYV/my-image1.png?hieght=250&width=250" alt="my image"></a>
 '''
 st.markdown("<h1 style='text-align: center; color: red;'><a href='https://git.io/typing-svg'><img src='https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=37&duration=2500&pause=1000&color=89E94E&background=5730FF00&width=435&lines=Hey,+I+am+Anuj+🙋‍♂️' alt='Typing SVG' /></a></h1>", unsafe_allow_html=True)
 tab1, tab2, tab3 = st.tabs(["Home", "About", "Contact"])
