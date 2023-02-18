@@ -93,6 +93,11 @@ Skills ='''
 </p>
 <br/><br/>
 '''
+resume = '''
+<p align='center'>
+<iframe src="C:\Users\lenovo\Documents\GitHub\mywebsite\data\Resiume final.pdf" width="100%" height="500px">
+</iframe>
+</p>'''
 extra = '''
 <h4 style='text-align: center; color: red;'><a href='https://mstcvitbhopal.live'>Currently I am the Technical team head of the Microsoft Technical Club VIT BHOPAL</a></h4>
 '''
@@ -135,6 +140,8 @@ with tab2:
         st.markdown(projects, unsafe_allow_html=True)
     with st.expander("Extra curriculurm:"):
         st.markdown(extra, unsafe_allow_html=True)
+    with st.expander("Resume:"):
+        st.markdown(resume, unsafe_allow_html=True)
 with tab3:
     st.snow()
     with st.spinner('Wait for it...'):
