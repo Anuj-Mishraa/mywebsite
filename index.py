@@ -2,6 +2,7 @@
 import streamlit as st
 from PIL import Image
 import time
+st.set_page_config(layout="wide")
 page_bg_img = '''
 
 <p align="center">
