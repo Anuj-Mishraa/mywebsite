@@ -1,35 +1,21 @@
 
 import streamlit as st
+import base64
 from PIL import Image
 import time
 st.set_page_config(layout="wide",page_title="Anuj Mishra",page_icon="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f468-1f3fc-200d-1f393.png")
 
-# def set_page_title(title):
-#     st.markdown(unsafe_allow_html=True, body=f"""
-#         <iframe height=0 srcdoc="<script>
-#             const title = window.parent.document.querySelector('title') \
-                
-#             const oldObserver = window.parent.titleObserver
-#             if (oldObserver) {{
-#                 oldObserver.disconnect()
-#             }} \
-
-#             const newObserver = new MutationObserver(function(mutations) {{
-#                 const target = mutations[0].target
-#                 if (target.text !== '{title}') {{
-#                     target.text = '{title}'
-#                 }}
-#             }}) \
-
-#             newObserver.observe(title, {{ childList: true }})
-#             window.parent.titleObserver = newObserver \
-
-#             title.text = '{title}'
-#         </script>" />
-#     """)
-
-
-# set_page_title("Anuj Mishra")
+def set_background(png_file):
+    bg_img = '''
+    <style>
+    .stApp {
+    background-image: url("%s");
+    background-size: contain;
+    }
+    </style>
+    '''%png_file
+    st.markdown(bg_img, unsafe_allow_html=True)
+set_background('https://i.ibb.co/yS6JpW1/OIP-2.jpg')
 hide_menu_style = """
         <style>
         #MainMenu {visibility: hidden;}
@@ -148,7 +134,6 @@ st.markdown("<h1 style='text-align: center; color: red;'><a href='https://git.io
 tab1, tab2, tab3 = st.tabs(["Home", "About", "Contact"])
 with tab1:
     with st.spinner('Wait for it...'):
-        st.snow()
         time.sleep(2)
     # image = Image.open("https://www.bing.com/images/search?q=Google+Upload+Icon&FORM=IRIBIP")
     col1, col2 = st.columns([3, 1])
@@ -177,9 +162,8 @@ with tab2:
         st.markdown(extra, unsafe_allow_html=True)
     
 with tab3:
-    st.snow()
     with st.spinner('Wait for it...'):
-        time.sleep(2)
+        time.sleep(5)
     st.success("## Contact me")
     progrs = st.progress(0)
     for i in range(100):
