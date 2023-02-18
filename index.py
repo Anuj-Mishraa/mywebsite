@@ -3,6 +3,12 @@ import streamlit as st
 from PIL import Image
 import time
 st.set_page_config(layout="wide")
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 page_bg_img = '''
 
 <p align="center">
