@@ -2,7 +2,7 @@
 import streamlit as st
 from PIL import Image
 import time
-st.set_page_config(layout="wide",page_title="Anuj Mishra",page_icon="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f440.png")
+st.set_page_config(layout="wide",page_title="Anuj Mishra",page_icon="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f468-1f3fc-200d-1f393.png")
 
 # def set_page_title(title):
 #     st.markdown(unsafe_allow_html=True, body=f"""
