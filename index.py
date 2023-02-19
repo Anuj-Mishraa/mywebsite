@@ -97,6 +97,8 @@ p1_con ='''
         Handwriting Cheracter and digit recognition
         Through Deep Learning Neural Network
         </p>
+        <a href="https://github.com/Anuj-gr8/APLHA_NUM" target="_blank" rel="noreferrer">
+        <img src="https://img.shields.io/badge/ALFANUM-2C2255?style=for-the-badge&logo=alfanum&logoColor=white" /></a>
     </div>
 </div>
 '''
@@ -173,7 +175,8 @@ p2_con ='''
         <p>
         A customize browser Build with Python
         with a downloadable setup &
-                Installable 
+                Installable <a href="https://github.com/Anuj-gr8/my-browser" target="_blank" rel="noreferrer">
+<img src="https://img.shields.io/badge/MY_Browser-0078D4?style=for-the-badge&logo=my%20sBrowser&logoColor=white" /></a>
         </p>
     </div>
 </div>
@@ -252,6 +255,8 @@ p3_con ='''
         A customize Bot Build with Python
         in EdTech. & Ecommerce perspectives 
         </p>
+        <a href="https://github.com/Anuj-gr8/Edtech_chatbot" target="_blank" rel="noreferrer">
+<img src="https://img.shields.io/badge/ChatBot-3C7755?style=for-the-badge&logo=Chatbot&logoColor=white" /></a>
     </div>
 </div>
 '''
@@ -330,6 +335,8 @@ p4_con ='''
         Language-Processing like translation,
         Text-to-Speech
         </p>
+        <a href="https://github.com/Anuj-gr8/Play_lang" target="_blank" rel="noreferrer">
+<img src="https://img.shields.io/badge/PlayLang-D83B01?style=for-the-badge&logo=PlayLang&logoColor=white" /></a>
     </div>
 </div>
 '''
@@ -433,7 +440,7 @@ certi = '''
     </iframe>
 '''
 extra = '''
-<h4 style='text-align: center; color: red;'><a href='https://mstcvitbhopal.live'>Currently I am the Technical team head of the Microsoft Technical Club VIT BHOPAL</a></h4>
+<h4 style='text-align: center; color: red;'><a href='#'>Currently I am the Technical team head of the Microsoft Technical Club VIT BHOPAL</a></h4>
 '''
 Contact = '''
 <br><br>
