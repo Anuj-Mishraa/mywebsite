@@ -2,6 +2,7 @@
 import streamlit as st
 import base64
 from PIL import Image
+# from streamlit.components.v1 import HtmlComponent
 import time
 st.set_page_config(layout="wide",page_title="Anuj Mishra",page_icon="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f468-1f3fc-200d-1f393.png")
 
@@ -22,6 +23,320 @@ hide_menu_style = """
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
+p1_con ='''
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .card {
+            height: 220px;
+            max-width: 200px;
+            position: relative;
+            margin: 30px 10px;
+            padding: 20px 15px;
+            background: wheat;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 202px black;
+            transition: 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            height: 420px;
+        }
+
+        .card .imgbox {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            top: -60px;
+            left: 0px;
+        }
+
+        .card .imgbox img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        .card .content {
+            position: relative;
+            margin-top: -100px;
+            padding: 10px 15px;
+            text-align: center;
+            color: #111;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+        }
+
+        .card:hover .content {
+            visibility: visible;
+            opacity: 1;
+            margin-top: -5px;
+            transition-delay: 0.3s;
+        }
+
+        /* css part completed*/
+    </style>
+</head>
+<div class="card">
+    <div class="imgbox">
+        <img src="https://i.ibb.co/gMCnPCp/handwriting-recognition-line-icon-hand-holding-pen-and-writing-image-vector-id901563256-k-6-m-901563.jpg">
+    </div>
+    <div class="content">
+
+        <!--heading of the card-->
+        <h1>AlphaNum</h1>
+
+        <!--content of the card-->
+        <p>
+        Handwriting Cheracter and digit recognition
+        Through Deep Learning Neural Network
+        </p>
+    </div>
+</div>
+'''
+p2_con ='''
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .card {
+            height: 220px;
+            max-width: 200px;
+            position: relative;
+            margin: 30px 10px;
+            padding: 20px 15px;
+            background: wheat;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 202px black;
+            transition: 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            height: 420px;
+        }
+
+        .card .imgbox {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            top: -60px;
+            left: 0px;
+        }
+
+        .card .imgbox img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        .card .content {
+            position: relative;
+            margin-top: -100px;
+            padding: 10px 15px;
+            text-align: center;
+            color: #111;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+        }
+
+        .card:hover .content {
+            visibility: visible;
+            opacity: 1;
+            margin-top: -5px;
+            transition-delay: 0.3s;
+        }
+
+        /* css part completed*/
+    </style>
+</head>
+<div class="card">
+    <div class="imgbox">
+        <img src="https://i.ibb.co/MGTx808/R.jpg">
+    </div>
+    <div class="content">
+
+        <!--heading of the card-->
+        <h1>Own Browser</h1>
+
+        <!--content of the card-->
+        <p>
+        A customize browser Build with Python
+        with a downloadable setup &
+                Installable 
+        </p>
+    </div>
+</div>
+'''
+p3_con ='''
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .card {
+            height: 220px;
+            max-width: 200px;
+            position: relative;
+            margin: 30px 10px;
+            padding: 20px 15px;
+            background: wheat;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 202px black;
+            transition: 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            height: 420px;
+        }
+
+        .card .imgbox {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            top: -60px;
+            left: 0px;
+        }
+
+        .card .imgbox img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        .card .content {
+            position: relative;
+            margin-top: -100px;
+            padding: 10px 15px;
+            text-align: center;
+            color: #111;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+        }
+
+        .card:hover .content {
+            visibility: visible;
+            opacity: 1;
+            margin-top: -5px;
+            transition-delay: 0.3s;
+        }
+
+        /* css part completed*/
+    </style>
+</head>
+<div class="card">
+    <div class="imgbox">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAD1APUDASIAAhEBAxEB/8QAHAABAAIDAQEBAAAAAAAAAAAAAAUGAgQHAwEI/8QAShAAAgIBAgQDBAYFBwgLAAAAAQIAAwQFEQYSITETQVEiYXGBFBUyUpGhB0KSsdEWI1RicpPSJDM2U3OUwdNDVWOForK04eLw8f/EABoBAQADAQEBAAAAAAAAAAAAAAABAgQDBQb/xAAuEQEAAgIABQEGBQUAAAAAAAAAAQIDEQQSEyExQQUiUXGBkRRCUmGhFTJDU/D/2gAMAwEAAhEDEQA/AOtxEQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERA+MyqGZiAoBJJOwAHmSZWda4u0zSt6+ctftutVah7iD2JQkBR6Fj8jIvjHilsIDBwXH0l15ucbEVJvsLSOxY/qD3c3pOa11ZmXa/h13X2sxa1urHmbqWsdjtufeZox4omOe86hiz8VyTy08rPmcd6xezeBVVWhJ28Z7Lm/AFK//DNEcXcQA7mzFI9DjKB+KkH85ppoeqMAWGPX7ntJP4IpH5z0+oM//XYv42/4ZH4rg69uaHnznyz6rBgcfZlTKuZSwTtz4zs4A99N5P5OJfNL1/TtTrV67ayGPLzITyhj+q6t7St7jOO2aNqlfUVJaB/qbAzfssFM8cPMztMyfGoZq7U9m2uwMFsXua7UO24//RLxGHNG8Von5S74+LvWff7w/QESvcNa5RquLUQxDbFQrnd67EALUufPboVPmDLDM0xMTqXqxMWjcEREhJERAREQEREBERAREQEREBERAREQEREBERATS1TLrwsHLybDsldTsxHcKqlm29+wO03GPKrMeygsdvQD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">
+    </div>
+    <div class="content">
+
+        <!--heading of the card-->
+        <h1>Chat-Bots</h1>
+
+        <!--content of the card-->
+        <p>
+        A customize Bot Build with Python
+        in EdTech. & Ecommerce perspectives 
+        </p>
+    </div>
+</div>
+'''
+p4_con ='''
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .card {
+            height: 220px;
+            max-width: 200px;
+            position: relative;
+            margin: 30px 10px;
+            padding: 20px 15px;
+            background: wheat;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 202px black;
+            transition: 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            height: 420px;
+        }
+
+        .card .imgbox {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            top: -60px;
+            left: 0px;
+        }
+
+        .card .imgbox img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        .card .content {
+            position: relative;
+            margin-top: -100px;
+            padding: 10px 15px;
+            text-align: center;
+            color: #111;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+        }
+
+        .card:hover .content {
+            visibility: visible;
+            opacity: 1;
+            margin-top: -5px;
+            transition-delay: 0.3s;
+        }
+
+        /* css part completed*/
+    </style>
+</head>
+<div class="card">
+    <div class="imgbox">
+        <img src="https://th.bing.com/th/id/OIP.3VXhOtSoR2U9chdOt7qSmQHaGt?w=197&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+    </div>
+    <div class="content">
+
+        <!--heading of the card-->
+        <h1>N-L-P</h1>
+
+        <!--content of the card-->
+        <p>
+        A kivy Application for Natural-
+        Language-Processing like translation,
+        Text-to-Speech
+        </p>
+    </div>
+</div>
+'''
+
+
+
+
 page_bg_img = '''
 
 <p align="center">
@@ -113,8 +428,8 @@ Skills ='''
 </p>
 <br/><br/>
 '''
-resume = '''
-    <iframe src="https://publuu.com/flip-book/88007/244547" width="100%" height="500px">
+certi = '''
+    <iframe src="https://publuu.com/flip-book/88007/244808" width="100%" height="500px">
     </iframe>
 '''
 extra = '''
@@ -155,9 +470,18 @@ with tab2:
     with st.expander("⚙️ Softwares I'm Familiar with :"):
         st.markdown(soft, unsafe_allow_html=True)
     with st.expander("📽️ Major Projects:"):
-        st.markdown(projects, unsafe_allow_html=True)
-    with st.expander("Resume:📑"):
-        st.markdown(resume, unsafe_allow_html=True)
+        p1, p2, p3, p4 = st.columns(4)
+        with p1:
+            st.components.v1.html(p1_con,height=470)
+        with p2:
+            st.components.v1.html(p2_con,height=470)
+        with p3:
+            st.components.v1.html(p3_con,height=470)
+        with p4:
+            st.components.v1.html(p4_con,height=470)
+        # st.markdown(projects, unsafe_allow_html=True)
+    with st.expander("📇Certifications:"):
+        st.markdown(certi, unsafe_allow_html=True)
     with st.expander("Extra curriculurm:"):
         st.markdown(extra, unsafe_allow_html=True)
     
