@@ -248,14 +248,14 @@ p3_con ='''
     <div class="content">
 
         <!--heading of the card-->
-        <h1>Chat-Bots</h1>
+        <h1>Chat-GPT-clone</h1>
 
         <!--content of the card-->
         <p>
         A customize Bot Build with Python
-        in EdTech. & Ecommerce perspectives 
+            using chat gpt API 
         </p>
-        <a href="https://github.com/Anuj-gr8/Edtech_chatbot" target="_blank" rel="noreferrer">
+        <a href="https://github.com/Anuj-gr8/Chat-gpt-mobile-clone" target="_blank" rel="noreferrer">
 <img src="https://img.shields.io/badge/ChatBot-3C7755?style=for-the-badge&logo=Chatbot&logoColor=white" /></a>
     </div>
 </div>
