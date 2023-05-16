@@ -22,7 +22,7 @@ hide_menu_style = """
         #MainMenu {visibility: hidden;}
         </style>
         """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
+# st.markdown(hide_menu_style, unsafe_allow_html=True)
 p1_con ='''
 <head>
     <style>
@@ -436,7 +436,7 @@ Skills ='''
 <br/><br/>
 '''
 certi = '''
-    <iframe src="https://publuu.com/flip-book/88007/244808" width="100%" height="500px">
+    <iframe src="https://certificates.tiiny.site" width="100%" height="500px">
     </iframe>
 '''
 extra = '''
